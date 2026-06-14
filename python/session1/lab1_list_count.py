@@ -1,13 +1,10 @@
 """Write a Python program to count the number 4 in a given list."""
-
-
 def count(lst):
     """Write your solution here. Don't forget to return the result at the end...."""
     count_4 = 0
     for num in lst:
         if num == 4:
-            count_4 += 1
-            
+            count_4 += 1        
     return count_4  
 
 if __name__ == "__main__":
