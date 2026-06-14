@@ -3,7 +3,12 @@
 
 def count(lst):
     """Write your solution here. Don't forget to return the result at the end...."""
-
+    count_4 = 0
+    for num in lst:
+        if num == 4:
+            count_4 += 1
+            
+    return count_4  
 
 if __name__ == "__main__":
     assert count([1, 2, 3, 4, 5, 4, 6]) == 2, "Test case failed"
